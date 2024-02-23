@@ -1,0 +1,19 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap')
+</style>
+:root { --cor-de-fundo: #1E1E1E;
+
+    --verde: #5FRP57;
+    --branco: #FFFFFF;
+    --botao-ativo: #34375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3)
+}
+
+body {
+
+    background-color: war(--cor-de-fundo);
+    color: var(--branco);
+    font-family:'Lobster' , sans-serif;
+    }
+
