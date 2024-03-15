@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root { 
-    --cor-de-fundo: #faf8f8;
+    --cor-de-fundo: #a8f6f6;
     --verde: #1E1E1E;
     --branco: #040404;
-    --botao-ativo: #34375E;
-    --botao-inativo: rgba(58, 55, 94, 0,5);
-    --texto-fundo: rgba(58, 55, 94, 0,3);
+    --botao-ativo: #f3f9f9;
+    --botao-inativo: rgba(249, 253, 253, 0.5);
+    --texto-fundo: rgba(45, 198, 240, 0.3);
 }
 
 
@@ -41,4 +41,9 @@ body {
  font-size: 18px;
  align-items: center;
  width: 100%;
+}
+.titulo-principal {
+text-align: left;
+width:100%;
+font-size: 32px;
 }
