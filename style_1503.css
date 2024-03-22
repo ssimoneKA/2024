@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root { 
-    --cor-de-fundo: #0d0d0d;
-    --verde: #faf6f6;
-    --branco: #f9f8f8;
+    --cor-de-fundo: #a8f6f6;
+    --verde: #1E1E1E;
+    --branco: #040404;
     --botao-ativo: #f3f9f9;
-    --botao-inativo: rgba(134, 143, 143, 0.5);
-    --texto-fundo: rgba(0, 83, 249, 0.3);
+    --botao-inativo: rgba(249, 253, 253, 0.5);
+    --texto-fundo: rgba(45, 198, 240, 0.3);
 }
 
 
