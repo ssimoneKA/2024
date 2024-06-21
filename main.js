@@ -8,6 +8,14 @@ document.querySelectorAll('.botao').forEach(btn => {
   });
 });
 
+const contadores = document.querySelectorAll('.contador');
+contadores[0].textContent = 'Contagem regressiva';
+const tempoobjetivo1 = new Date("2024-10-05T00:00:00");
+let tempoAtual = new Date();
+
+contadores[0].textContent = tempoobjetivo1 - tempoAtual;
+
+contadores[0].textContent = tempoobjetivo;
 
 const botoes = document.querySelectorAll('.botao');
 for(let i=0;i ,botoes.length;i++){
@@ -15,4 +23,5 @@ for(let i=0;i ,botoes.length;i++){
     for(let j=0;j<botoes.length;j++) {
       botoes[j].classList.remove('ativo'); }
     botoes[i].classList.add('ativo');} 
-    }   
+    } 
+    
